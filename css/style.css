@@ -1,0 +1,240 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0; padding: 0; 
+}
+html{
+    background-color: #ffff;
+    color: #555;
+    font-family:'lato' ;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)),
+    url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-box{
+    position: absolute;left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-box h1{
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 180%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.btn:link, .btn:visited{
+    border: solid 1px #e67e22;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover, .btn:active{
+    background-color: #e67e22;
+
+}
+.logo{
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 100px;
+    float: lefts;
+}
+.main-nav{
+    float: right;
+    margin-top: 55px;
+    margin-right: 100px;
+}
+.main-nav li{
+    
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link , .main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.main-nav li a:hover , .main-nav li a:active{
+    color:  #e67e22;
+    text-decoration: underline;
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/*hr{
+    border: none;
+    border-bottom: 2px solid #e67e22;
+    width: 120px;
+    margin: 20px auto;
+
+}*/
+h2::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #e67e22;
+    margin: 20px auto;
+}
+.feat-desc{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    
+}
+.box i{
+    font-size: 20px;
+    color: #e67e22;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.box h3{
+    font-size: 120%;
+    margin-bottom: 10px;
+
+}
+.meal{
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: all 1s;
+    
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#testimonials{
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),
+    url(../images/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+blockquote{
+    font-style: italic;
+    padding: 2%;
+    line-height: 150%;
+    margin-top: 35px;
+    position: relative;
+}
+blockquote::before{
+    content: "\201c";
+    display: block;
+    font-size: 500%;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+}
+cite{
+    margin-top: 25px; display: block;
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+#sign{
+    background-color: rgb(211, 211, 211);
+}
+.on{
+    font-size: 20px;
+    font-style: italic;
+    background-color: #fff;
+    margin-bottom: 2px;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding: 10px;
+}
+.on p{
+    margin-top: 10px;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+.on i{
+    margin-top: 10px;
+    font-size: 10px;
+    color: #e67e22;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.submit{
+    text-align: center;
+    background-color: #fff;
+    padding: 5%;
+}
+.btn1:link, .btn1:visited{
+    border: solid 1px #e67e22;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #e67e22;
+}
+.btn1:hover, .btn1:active{
+    background-color: #e67e22;
+    color: #fff;
+}
+span{
+    font-size: 300%;
+}
+
+
+
+
+
+.city img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.city h3{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.miza{
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+.miza i{
+    color: #e67e22;
+    margin-right: 10px;
+}
+.miza a{
+    color: #e67e22;
+}
+.map iframe{
+
+    width: 100%;
+    
+}
+.video iframe{
+
+    width: 100%;
+    height: 100%;
+}
